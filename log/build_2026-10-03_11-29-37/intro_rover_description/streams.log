@@ -1,0 +1,121 @@
+[0.056s] Invoking command in '/home/userdev/Software_Intro_Task_2026-2027/build/intro_rover_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/userdev/Software_Intro_Task_2026-2027/install/rover_control:/opt/ros/jazzy /usr/bin/cmake /home/userdev/Software_Intro_Task_2026-2027/src/intro_rover_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description
+[0.320s] -- The C compiler identification is GNU 13.3.0
+[1.358s] -- The CXX compiler identification is GNU 13.3.0
+[2.139s] -- Detecting C compiler ABI info
+[2.729s] -- Detecting C compiler ABI info - done
+[2.764s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.765s] -- Detecting C compile features
+[2.766s] -- Detecting C compile features - done
+[2.908s] -- Detecting CXX compiler ABI info
+[3.405s] -- Detecting CXX compiler ABI info - done
+[3.439s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.440s] -- Detecting CXX compile features
+[3.443s] -- Detecting CXX compile features - done
+[3.457s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.910s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.126s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.284s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.575s] -- Configuring done (4.5s)
+[4.589s] -- Generating done (0.0s)
+[4.594s] -- Build files have been written to: /home/userdev/Software_Intro_Task_2026-2027/build/intro_rover_description
+[4.606s] Invoked command in '/home/userdev/Software_Intro_Task_2026-2027/build/intro_rover_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/userdev/Software_Intro_Task_2026-2027/install/rover_control:/opt/ros/jazzy /usr/bin/cmake /home/userdev/Software_Intro_Task_2026-2027/src/intro_rover_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description
+[4.609s] Invoking command in '/home/userdev/Software_Intro_Task_2026-2027/build/intro_rover_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/userdev/Software_Intro_Task_2026-2027/install/rover_control:/opt/ros/jazzy /usr/bin/cmake --build /home/userdev/Software_Intro_Task_2026-2027/build/intro_rover_description -- -j8 -l8
+[4.719s] Invoked command in '/home/userdev/Software_Intro_Task_2026-2027/build/intro_rover_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/userdev/Software_Intro_Task_2026-2027/install/rover_control:/opt/ros/jazzy /usr/bin/cmake --build /home/userdev/Software_Intro_Task_2026-2027/build/intro_rover_description -- -j8 -l8
+[4.746s] Invoking command in '/home/userdev/Software_Intro_Task_2026-2027/build/intro_rover_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/userdev/Software_Intro_Task_2026-2027/install/rover_control:/opt/ros/jazzy /usr/bin/cmake --install /home/userdev/Software_Intro_Task_2026-2027/build/intro_rover_description
+[4.770s] -- Install configuration: ""
+[4.787s] -- Execute custom install script
+[4.787s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/urdf/intro_rover_description.urdf
+[4.807s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/urdf/intro_rover_description_backup.urdf
+[4.831s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/urdf/intro_rover_description_before_control.urdf
+[4.860s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/meshes/base_link.STL
+[4.882s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/meshes/bl_swerve_yaw_link.STL
+[4.907s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/meshes/bl_wheel_link.STL
+[4.931s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/meshes/br_swerve_yaw_link.STL
+[4.962s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/meshes/br_wheel_link.STL
+[4.990s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/meshes/elbow_pitch_link.STL
+[5.019s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/meshes/elbow_roll_link.STL
+[5.047s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/meshes/fl_swerve_yaw_link.STL
+[5.074s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/meshes/fl_wheel_link.STL
+[5.100s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/meshes/fr_swerve_yaw_link.STL
+[5.126s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/meshes/fr_wheel_link.STL
+[5.159s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/meshes/shoulder_pitch_link.STL
+[5.185s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/meshes/shoulder_yaw_link.STL
+[5.212s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/meshes/wrist_pitch_link.STL
+[5.238s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/meshes/wrist_roll_link.STL
+[5.271s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/launch/build/.built_by
+[5.271s] [33mCMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:67 (file):
+[5.272s]   Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow
+[5.272s]   symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.
+[5.272s]   Use the cmake_policy command to set the policy and suppress this warning.
+[5.273s] Call Stack (most recent call first):
+[5.273s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:319 (ament_cmake_symlink_install_directory)
+[5.273s]   cmake_install.cmake:46 (include)
+[5.274s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[5.274s] [0m
+[5.298s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/launch/build/COLCON_IGNORE
+[5.342s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/launch/display.launch.py
+[5.373s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/launch/gazebo.launch.py
+[5.397s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/launch/install/.colcon_install_layout
+[5.417s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/launch/install/COLCON_IGNORE
+[5.444s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/launch/install/_local_setup_util_sh.py
+[5.471s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/launch/install/local_setup.bash
+[5.495s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/launch/install/local_setup.sh
+[5.519s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/launch/install/local_setup.zsh
+[5.543s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/launch/install/setup.bash
+[5.568s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/launch/install/setup.sh
+[5.593s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/launch/install/setup.zsh
+[5.621s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/launch/log/COLCON_IGNORE
+[5.644s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/launch/log/build_2026-09-26_16-10-49/events.log
+[5.676s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/launch/log/build_2026-09-26_16-10-49/logger_all.log
+[5.701s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/launch/log/latest/events.log
+[5.723s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/launch/log/latest/logger_all.log
+[5.750s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/launch/log/latest_build/events.log
+[5.780s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/launch/log/latest_build/logger_all.log
+[5.813s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/config/controllers.yaml
+[5.842s] -- Up-to-date symlink: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/meshes/base_link.STL
+[5.843s] -- Up-to-date symlink: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/meshes/bl_swerve_yaw_link.STL
+[5.844s] -- Up-to-date symlink: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/meshes/bl_wheel_link.STL
+[5.844s] -- Up-to-date symlink: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/meshes/br_swerve_yaw_link.STL
+[5.845s] -- Up-to-date symlink: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/meshes/br_wheel_link.STL
+[5.846s] -- Up-to-date symlink: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/meshes/elbow_pitch_link.STL
+[5.847s] -- Up-to-date symlink: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/meshes/elbow_roll_link.STL
+[5.848s] -- Up-to-date symlink: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/meshes/fl_swerve_yaw_link.STL
+[5.849s] -- Up-to-date symlink: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/meshes/fl_wheel_link.STL
+[5.850s] -- Up-to-date symlink: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/meshes/fr_swerve_yaw_link.STL
+[5.850s] -- Up-to-date symlink: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/meshes/fr_wheel_link.STL
+[5.851s] -- Up-to-date symlink: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/meshes/shoulder_pitch_link.STL
+[5.851s] -- Up-to-date symlink: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/meshes/shoulder_yaw_link.STL
+[5.852s] -- Up-to-date symlink: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/meshes/wrist_pitch_link.STL
+[5.852s] -- Up-to-date symlink: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/meshes/wrist_roll_link.STL
+[5.855s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/models/intro_rover_description/meshes/base_link.STL
+[5.883s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/models/intro_rover_description/meshes/bl_swerve_yaw_link.STL
+[5.912s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/models/intro_rover_description/meshes/bl_wheel_link.STL
+[5.941s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/models/intro_rover_description/meshes/br_swerve_yaw_link.STL
+[5.970s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/models/intro_rover_description/meshes/br_wheel_link.STL
+[5.997s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/models/intro_rover_description/meshes/elbow_pitch_link.STL
+[6.029s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/models/intro_rover_description/meshes/elbow_roll_link.STL
+[6.058s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/models/intro_rover_description/meshes/fl_swerve_yaw_link.STL
+[6.087s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/models/intro_rover_description/meshes/fl_wheel_link.STL
+[6.119s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/models/intro_rover_description/meshes/fr_swerve_yaw_link.STL
+[6.145s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/models/intro_rover_description/meshes/fr_wheel_link.STL
+[6.173s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/models/intro_rover_description/meshes/shoulder_pitch_link.STL
+[6.201s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/models/intro_rover_description/meshes/shoulder_yaw_link.STL
+[6.228s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/models/intro_rover_description/meshes/wrist_pitch_link.STL
+[6.258s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/models/intro_rover_description/meshes/wrist_roll_link.STL
+[6.285s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/models/intro_rover_description/model.config
+[6.315s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/ament_index/resource_index/package_run_dependencies/intro_rover_description
+[6.340s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/ament_index/resource_index/parent_prefix_path/intro_rover_description
+[6.381s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/environment/ament_prefix_path.sh
+[6.408s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/environment/ament_prefix_path.dsv
+[6.429s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/environment/path.sh
+[6.453s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/environment/path.dsv
+[6.473s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/local_setup.bash
+[6.496s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/local_setup.sh
+[6.524s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/local_setup.zsh
+[6.550s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/local_setup.dsv
+[6.570s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/package.dsv
+[6.590s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/ament_index/resource_index/packages/intro_rover_description
+[6.612s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/cmake/intro_rover_descriptionConfig.cmake
+[6.635s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/cmake/intro_rover_descriptionConfig-version.cmake
+[6.661s] -- Symlinking: /home/userdev/Software_Intro_Task_2026-2027/install/intro_rover_description/share/intro_rover_description/package.xml
+[6.690s] Invoked command in '/home/userdev/Software_Intro_Task_2026-2027/build/intro_rover_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/userdev/Software_Intro_Task_2026-2027/install/rover_control:/opt/ros/jazzy /usr/bin/cmake --install /home/userdev/Software_Intro_Task_2026-2027/build/intro_rover_description

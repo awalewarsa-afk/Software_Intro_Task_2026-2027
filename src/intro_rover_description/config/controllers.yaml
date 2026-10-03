@@ -1,0 +1,38 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 1000
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    rover_controller:
+      type: forward_command_controller/ForwardCommandController
+
+    wheel_controller:
+      type: forward_command_controller/ForwardCommandController
+
+rover_controller:
+  ros__parameters:
+    joints:
+      - shoulder_yaw
+      - shoulder_pitch
+      - elbow_pitch
+      - elbow_roll
+      - wrist_pitch
+      - wrist_roll
+      - fr_swerve_yaw
+      - br_swerve_yaw
+      - fl_swerve_yaw
+      - bl_swerve_yaw
+
+    interface_name: position
+
+wheel_controller:
+  ros__parameters:
+    joints:
+      - fr_wheel
+      - br_wheel
+      - fl_wheel
+      - bl_wheel
+
+    interface_name: velocity
